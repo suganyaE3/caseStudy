@@ -63,7 +63,7 @@ public class GuessGameTest {
         // // Call the method and get the result
         // String result = guessGame.compareGuess(guess, secretNumber,attempts,session);
 
-        String result = "Correct! You guessed the number in 10 attempts."
+        String result = "Correct! You guessed the number in 10 attempts.";
         
         // Assert the message is "Correct"
         assertEquals("Correct! You guessed the number in 10 attempts.", result);
