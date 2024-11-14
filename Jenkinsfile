@@ -7,6 +7,7 @@ pipeline {
     }
     environment {
         // Define environment variables
+        //Tomcat details
         BRANCH_NAME = "${env.GIT_BRANCH}"
         TOMCAT_SERVER = "http://192.168.0.113:8080"
         TOMCAT_USER = "admin"
